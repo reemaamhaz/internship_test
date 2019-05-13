@@ -62,8 +62,8 @@ printOutFirstNames();
 
 /* 
     this function uses a for loop to iterate through every value of the array 
-    excluding the staff in HR and Corporate, and outputs the names and departments left 
-    then it uses the apply method to call the function splitFullName with an array of names
+    excluding the staff in HR and Corporate with the if statement, and outputs the names
+    and departments left then it uses the apply method to call the function splitFullName with an array of names
 */
 function processAllEmployees(allEmployees)
 { 
@@ -87,7 +87,7 @@ function processAllEmployees(allEmployees)
 /* 
     this function uses a for loop to iterate through every name from the 
     processAllEmployees function and then uses the split method to split 
-    the string into substrings - then it uses the shift method to eliminate
+    the string into substrings. It uses the shift method to eliminate
     the first element from the array and returns it, effectively making the 
     array smaller until there are no values left
 
@@ -116,7 +116,7 @@ function incrementDepartmentCount(department)
 } 
 
 /* 
-    this function prints out each first name in the array by using a for
+    this function prints out each name in the firstNamesArray array by using a for
     loop to iterate through the array
 */
 function printOutFirstNames() 
